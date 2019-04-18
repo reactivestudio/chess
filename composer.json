@@ -1,0 +1,19 @@
+{
+    "name": "dmitriy/chess",
+    "description": "Implementation chess with php",
+    "authors": [
+        {
+            "name": "Dmitriy Bushin",
+            "email": "dima.bushin@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "chess\\": "src/"
+        }
+    },
+    "require-dev": {
+        "kint-php/kint": "^3.2"
+    }
+}
